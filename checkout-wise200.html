@@ -204,12 +204,12 @@
         <div class="payment-method">
             <div class="payment-option" id="hoodpay" onclick="selectPaymentMethod('hoodpay')">
                 <img src="apple-pay (1).png" alt="Apple pay"> <img src="google-pay.png" alt="google pay"> <img src="visa (1).png" alt="visa"> <img src="card.png" alt="mastercard">
-                <p>Apple pay Google pay Credit card<br>€200.00</p>
+                <p>Credit cards - CryptoCurrencies<br>€200.00</p>
             </div>
 
             <div class="payment-option" id="crypto" onclick="selectPaymentMethod('crypto')">
-                <img src="bitcoin.png" alt="Cryptocurrency">
-                <p>Cryptocurrency<br>€200.00</p>
+                <img src="visa (1).png" alt="visa"> <img src="bitcoin.png" alt="Cryptovoucher"> <img src="card.png" alt="mastercard">
+                <p>Cryptovoucher<br>€200.00</p>
             </div>
         </div>
         <p class="margine-top">• Select a payment</p>
@@ -281,7 +281,7 @@
         console.log("Calling makePayment()");
         makePayment(); 
     } else if (selectedPayment === 'crypto') {
-        window.location.href = "https://coinpayment.online/globalwhite-200";
+        window.location.href = "https://t.me/CryptoVouchers_Bot?start=product023107";
     }
 }
 
@@ -330,7 +330,7 @@
             headers: {
                 "Accept": "application/json",
                 "Content-Type": "application/json",
-                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3MTg3IiwiZXhwIjoyMDU4NTM1NzIzfQ.THXvCb3pyk4OuBzVj6518TU0zQhEeoXq9x7qpyG8XSE"
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3MTg4IiwiZXhwIjoyMDU4MTkyMTU3fQ.euEjzHccuGCE9vN7iBJ-ALg0htvusFzwnYXn11obft8"
             },
             body: JSON.stringify(data)
         });

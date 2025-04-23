@@ -204,12 +204,12 @@
         <div class="payment-method">
             <div class="payment-option" id="hoodpay" onclick="selectPaymentMethod('hoodpay')">
                 <img src="apple-pay (1).png" alt="Apple pay"> <img src="google-pay.png" alt="google pay"> <img src="visa (1).png" alt="visa"> <img src="card.png" alt="mastercard">
-                <p>Apple pay Google pay Credit card<br>€100.00</p>
+                <p>Credit cards - CryptoCurrencies<br>€100.00</p>
             </div>
 
             <div class="payment-option" id="crypto" onclick="selectPaymentMethod('crypto')">
-                <img src="bitcoin.png" alt="Cryptocurrency">
-                <p>Cryptocurrency<br>€100.00</p>
+                <img src="visa (1).png" alt="visa"> <img src="bitcoin.png" alt="Cryptovoucher"> <img src="card.png" alt="mastercard">
+                <p>Cryptovoucher<br>€100.00</p>
             </div>
         </div>
         <p class="margine-top">• Select a payment</p>
@@ -281,7 +281,7 @@
         console.log("Calling makePayment()");
         makePayment(); 
     } else if (selectedPayment === 'crypto') {
-        window.location.href = "https://coinpayment.online/globalwhite-100";
+        window.location.href = "https://t.me/CryptoVouchers_Bot?start=product750181";
     }
 }
 
@@ -316,7 +316,7 @@
     // Show the loader
     document.getElementById("loading").style.display = "block";
 
-    const url = "https://api.hoodpay.io/v1/businesses/25093/payments";
+    const url = "https://api.hoodpay.io/v1/businesses/25098/payments";
     const data = {
         name: "PHYSICAL CARDS",
         description: "Best card methods 2025.",
@@ -330,7 +330,7 @@
             headers: {
                 "Accept": "application/json",
                 "Content-Type": "application/json",
-                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3MTg3IiwiZXhwIjoyMDU4NTM1NzIzfQ.THXvCb3pyk4OuBzVj6518TU0zQhEeoXq9x7qpyG8XSE"
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3MTg4IiwiZXhwIjoyMDU4MTkyMTU3fQ.euEjzHccuGCE9vN7iBJ-ALg0htvusFzwnYXn11obft8"
             },
             body: JSON.stringify(data)
         });
